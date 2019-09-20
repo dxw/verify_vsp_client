@@ -1,5 +1,9 @@
 require "bundler/setup"
 require "verify_vsp_client"
+require "rack/test"
+require "webmock/rspec"
+
+require_relative "helpers"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -10,5 +14,9 @@ RSpec.configure do |config|
 
   config.expect_with :rspec do |c|
     c.syntax = :expect
+  end
+
+  VerifyVspClient.configure do |config|
+    config.vsp_host = "http://localhost:4567"
   end
 end
