@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["Robbie Paul"]
   spec.email = ["robbie.paul@dxw.com"]
 
-  spec.summary = "Write a short summary, because RubyGems requires one."
-  spec.description = "Write a longer description or delete this line."
-  spec.homepage = "https://github.com/dxw"
+  spec.summary = "VSP client for GOV.UK Verify"
+  spec.description = "Ruby client for sending and receiving requests to a Verify Service Provider allowing you to connect to GOV.UK Verify"
+  spec.homepage = "https://github.com/dxw/verify_vsp_client"
   spec.license = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

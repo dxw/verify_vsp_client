@@ -3,8 +3,8 @@
 
 # Verify VSP Client
 
- Ruby client for sending and receiving requests to a [Verify Service Provider] allowing you to
- connect to [GOV.UK Verify]
+Ruby client for sending and receiving requests to a [Verify Service Provider] allowing you to
+connect to [GOV.UK Verify]
 
 ## Installation
 
