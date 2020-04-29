@@ -8,14 +8,14 @@ def stubbed_auth_request_response
   {
     "samlRequest" => "PD94bWwg",
     "requestId" => "REQUEST_ID",
-    "ssoLocation" => "/verify/fake_sso",
+    "ssoLocation" => "/verify/fake_sso"
   }
 end
 
 def stubbed_auth_request_error_response
   {
     "code" => 422,
-    "message" => "Some error message",
+    "message" => "Some error message"
   }
 end
 
@@ -29,7 +29,7 @@ def example_vsp_translate_request_payload
   {
     "samlResponse" => VerifyVspClient::FakeSso::IDENTITY_VERIFIED_SAML_RESPONSE,
     "requestId" => "REQUEST_ID",
-    "levelOfAssurance" => "LEVEL_2",
+    "levelOfAssurance" => "LEVEL_2"
   }
 end
 
