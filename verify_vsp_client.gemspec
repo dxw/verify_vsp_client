@@ -41,7 +41,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 12.3.3"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "rack-test", "~> 1.1"
+  spec.add_development_dependency "rack-test", "~> 2.0"
   spec.add_development_dependency "webmock", "~> 3.7"
   spec.add_development_dependency "standard", "~> 0.1"
 end
